@@ -1,3 +1,13 @@
 body {
     background-color: paleturquoise;
+    text-align: center;
+}
+
+#dice-input {
+    width: 225px;
+}
+
+#roll-dice-button {
+    border-radius: 12px;
+    padding: 14px 40px;
 }

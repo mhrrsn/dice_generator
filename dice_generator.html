@@ -5,11 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dice Generator</title>
     <link rel="stylesheet" href="dice_stylesheet.css"/>
-    <script src="dice_script.js" defer></script>
+    <script src="dice_script.js" defer></script> <!-- defer: script that will be downloaded in parallel to parsing the page, and executed after the page has finished parsing-->
 </head>
 
 <body>
     <h1>Your Online Dice</h1>
     <img src="https://cdn-icons-png.flaticon.com/128/2228/2228381.png"/>
+    <br/>
+    <br/>
+    <input type="number" id="dice-input" placeholder="Set number of sides for your dice" min="2" max="10">
+    <br/>
+    <br/>
+    <button id="roll-dice-button">Roll your dice!</button>
+    <script></script>
 </body>
 </html>
